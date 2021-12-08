@@ -1,0 +1,13 @@
+
+
+
+* Time when i didnt know something and i accustomed to the change?
+
+
+* Metrics used to determine performance
+
+  - During the live deployment scenario, there would be models monitoring.
+    Probability of Acceptance is the metric
+
+  - 
+  

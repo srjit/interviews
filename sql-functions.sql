@@ -1,0 +1,23 @@
+
+SELECT
+FLOOR
+AVERAGE
+ROUND
+SQRT
+POWER
+MAX
+MOD
+IF(statement, pass_value, fail_value)
+
+
+CASE
+	WHEN ... THEN ...
+	WHEN ... THEN ...
+	WHEN ... THEN ...
+	ELSE
+END
+	
+
+
+
+SELECT ROUND(AVG(A.LAT_N), 4) FROM (SELECT @N := @N +1 AS ROW_ID, LAT_N FROM STATION ORDER BY LAT_N)

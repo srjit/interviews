@@ -1,0 +1,4 @@
+
+Sampling
+Probability Sampling techniques: Clustered sampling, Simple random sampling, Stratified sampling.
+Non-Probability Sampling techniques: Quota sampling, Convenience sampling, snowball sampling, etc.

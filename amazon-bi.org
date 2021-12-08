@@ -1,0 +1,5 @@
+
+
+probability of the product coming from location A is 0.8 and from location B is 0.6. What is the probability the customers will receive the product from location A or location B
+
+1 - (P(A) and P(B))

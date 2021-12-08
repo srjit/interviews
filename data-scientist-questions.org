@@ -1,0 +1,17 @@
+
+
+* what is selection bias? How to prevent it?
+* What are outliers? How to detect them? Categorical and Numeric fields
+* Overfitting and Underfitting of Data
+* Assumptions of linear regression
+* How to treat outliers
+* https://hackr.io/blog/data-science-interview-questions
+  https://intellipaat.com/blog/interview-question/data-science-interview-questions/
+  https://www.springboard.com/blog/data-science/data-science-interview-questions/
+ 
+
+
+  https://www.aboutwayfair.com/careers/tech-blog/speeding-up-a-b-tests-with-delayed-reward-forecasting
+   
+
+https://accenture.wd3.myworkdayjobs.com/AccentureCareers/login?redirect=%2FAccentureCareers%2Fjob%2FSan-Fran-Corp-415-Mission-Street%2FData-Science-Consultant_00978868%2Fapply

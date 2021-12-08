@@ -1,0 +1,3 @@
+
+* Describe a project ...? Describe a moment...? Strong/weak part? Score your XX skill? ......
+SQL questions, join table match rate; write SGD from scratch

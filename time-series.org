@@ -1,0 +1,29 @@
+
+https://www.analyticsvidhya.com/blog/2017/04/40-questions-on-time-series-solution-skillpower-time-series-datafest-2017/
+
+   14) Looking at the below ACF plot, would you suggest to apply AR or MA in ARIMA modeling technique?
+       https://cdn.analyticsvidhya.com/wp-content/uploads/2017/04/10054154/Image141.jpg
+
+
+
+ Modeling time series
+ --------------------
+
+- check acf and pacf
+- Plot it and check if it is stationary
+- can this series be modeled by AR or MA process? What is the order of AR or MA process
+- If it is modeled as an AR model, check if it has unit roots using Arugmented ADF test
+- Check if the series is not white noise (Mean = 0, SD = constant, Correlation between lags = 0). If it is white noise, we can't predict anything
+  a) visual tests b)global vs local c) ACF and PACF plots
+
+
+
+
+
+
+to do - resume: Add tsa and statsmodels in resume
+
+  
+  
+
+

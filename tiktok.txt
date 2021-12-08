@@ -1,0 +1,3 @@
+
+
+Focus on SQL. window functions, joins
