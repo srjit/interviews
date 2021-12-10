@@ -1,0 +1,40 @@
+
+
+
+Events
+-----
+Total events: 4917585
+
+Key in Events Table: ip, request_datetime, timestamp, software_id
+
+Timestamp must be the time when it reached the system? There is almost a 1 day delay
+
+Users
+-----
+
+user_agent, software_id, timestamp, request_datetume, ip
+
+# user_agent, software_id, ip
+
+
+There are only few partner_ids, may be working with 4 different agencies?
+
+
+
+-----------
+
+Are user_agent and software_id same?
+
+if yes, another table
+
+
+select count(distinct user_agent, software_id) from events;
+
+select  count(distinct software_id) from events;
+select  count(distinct user_agent) from events;
+
+
+--------------
+
+
+
