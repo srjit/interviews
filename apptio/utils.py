@@ -85,7 +85,9 @@ def find_full_schema(gzip_paths):
     
     
 def standardize_data(path, schema):
+    '''
     
+    '''
     try:
         df = pd.read_json(path, lines=True, compression='gzip')
         df["request_keys"] = df["request"].apply(lambda x: x.keys())
@@ -115,6 +117,8 @@ def standardize_data(path, schema):
             for col in missing_cols:
                 df[col] = None
         df = df[schema]
+        
+        # Click through instance validation pipeline could be added here
         
         return df
     
