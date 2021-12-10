@@ -142,7 +142,8 @@ def standardize_and_store(paths, schema, table, connection):
         del df["error"]
         
         # Take care of User fields - Assumption: One user is using only one device at a time
-        user_columns = ["user_agent", "software_id", "ip", "request_datetime"]
+        # Bug in code - the same user might come in multiple gzips - then there could be a duplication issue - FIX LATER
+        user_columns = ["user_agent", "ip"]
         user_df = df[user_columns]
         user_df.drop_duplicates(inplace=True)
         
@@ -152,7 +153,7 @@ def standardize_and_store(paths, schema, table, connection):
 
         # Rest of the columns are events - Take care of that
         columns_to_ignore_by_event_df = status_columns + user_columns + ["request_unixtime"]
-        event_columns = [x for x in df.columns.tolist() if x not in columns_to_ignore_by_event_df ] + ["statusCode", "ip"]
+        event_columns = [x for x in df.columns.tolist() if x not in columns_to_ignore_by_event_df ] + ["statusCode", "ip", "request_datetime"]
         event_df = df[event_columns]
         
         event_type_map = {x:LONGTEXT for x in event_columns}
