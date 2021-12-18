@@ -1,0 +1,80 @@
+
+·           If offered the position, what would be your potential start date to join Amazon ?
+
+I would be join immediately.
+
+·           Are you actively interviewing?
+
+Yes.
+
+·           Do you have any pending offers? If so, are there any deadlines by which you need to respond to the offers?
+
+At the moment, I do not have any pending offers.
+
+·           Have you previously interviewed with or worked for Amazon and/or its subsidiaries? If so, what was your interview date or employee alias?
+
+I have interviewed with Amazon during May 2019.
+
+·           Do you have a bachelor's degree?
+Yes
+
+·           Are you currently enrolled in a degree seeking program or have you received a degree in the last 6 months? If so, which degree, University and graduation date?
+No.
+
+·           What is your total compensation expectation if offered this role at Amazon?
+$125000 per annum
+
+·           Do you need or will you need in the future, any immigration-related support or sponsorship from Amazon in order to begin or continue employment with Amazon?
+
+I would need an H1B transfer to begin employment with Amazon. 
+
+
+o   If yes, are you currently located in the US? Please indicate your current US immigration status/visa and type of sponsorship required
+
+Currently, I am located at Allston, Boston, MA. Currently I am on an H1B visa.
+
+·        What is your current immigration status (H1B visa, green card, F1-OPT/F1-CPT, etc.)?
+
+H1B Visa
+
+
+o   If on H-1B or L status, please complete the following:
+
+·        How long have you been in H-1B status and how long are you eligible?
+
+My current H1B started since 10/01/2021. The visa is valid till 09/30/2024.
+
+·        Do you have any green card applications pending on your behalf?
+
+No. However, I will be applying for a permanant resident application through my spouse dependent.
+
+·        Do you have an approved I-140? If so, for what role was it filed?
+
+No.
+
+·        Do you have an I-485 application pending? If so, on what date was it filed?  
+
+No.
+
+Where are you currently located?
+
+I am currently location in Allston, Boston, MA
+
+Are you open for relocation?
+
+Yes.
+
+How many total years of experience do you have in business intelligence and analytics?
+
+I have 6 years of experience in BI and analytics domain.
+
+What size is are the largest datasets you have worked with?
+
+Worked on datasets with about 40-50 Million rows in Hive. Processed this data using a spark cluster.
+
+Please rate your ability in the following (1-10 ; 10=expert)
+
+SQL: 6
+Scripting skill (e.g. python, java, R, etc.): 8.5 (Python), 6.5 (Java), R (5)
+Data Modeling: 8
+ 

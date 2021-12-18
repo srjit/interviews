@@ -1,0 +1,31 @@
+
+
+Focus on SQL. window functions, joins
+
+
+
+Topics to study 
+Ridge, Lasso, Adaptive Lasso and Elastic Net
+
+Case study related to movie in theatre
+
+Created “user loyalty segment”, a new metric that quantifies the usage frequency of HuffPost users;
+performed cohort analysis and developed Random Forests model to understand the top indicators of user loyalty
+
+Yield Management and Pricing
+
+
+What distributions do you use for A/B Testing?
+
+Statistics
+Tell me about a project that you have performed.
+
+Using SQL, find the TOP 5 users who posted the most videos in each Assumptions
+
+country of a Z-test
+
+How would you help creators on tiktok monetize
+
+Measure how content meets security standards
+
+Find Top 10 topic pairs, and their number of occurrences, given a table with two main table elements: video_id, topic_list.

@@ -18,12 +18,26 @@ https://www.analyticsvidhya.com/blog/2017/04/40-questions-on-time-series-solutio
 
 
 
+Removing volatility
+------------------------------------
 
+- groupby year and take standard deviation
+- Subtract that years' standard deviation from the years actual value
+
+Removing seasonality
+
+
+How do two time series grow with each other
+------------------------------------------
+take lags from 1 to n and apply pearson_correlation
+
+
+|VAR Models |
+
+
+https://youtu.be/6Ye0CsfRDJg?list=PLvcbYUQ5t0UHOLnBzl46_Q6QKtFgfMGc3
+https://github.com/ritvikmath/Time-Series-Analysis/blob/master/VAR%20Model.ipynb
 
 
 to do - resume: Add tsa and statsmodels in resume
-
-  
-  
-
-
+* 

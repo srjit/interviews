@@ -1,0 +1,26 @@
+How do you interpret logistic regression?
+How does dropout work?
+What is L1 vs L2 regularization?
+What is the difference between bagging and boosting?
+Explain in detail how a 1D CNN works.
+Describe a case where you have solved an ambiguous business problem using machine learning.
+Having a categorical variable with thousands of distinct values, how would you encode it?
+What is lstm? Why use lstm? How was lstm used in your experience?
+What did you use to remove multicollinearity? Explain what values of VIF you used.
+Explain different time series analysis models. What are some time series models other than Arima?
+How does a neural network with one layer and one input and output compare to a logistic regression?
+
+What is p-value?
+What is the maximum likelihood of getting k heads when you tossed a coin n times? Write down the mathematics behind it.
+There are 4 red balls and 2 blue balls, what's the probability of them not being the same in the 2 picks?
+How would you explain hypothesis testing for a newbie?
+What is cross-validation?
+Estimate the disease probability in one city given the probability is very low nationwide. Randomly asked 1000 people in this city, with all negative responses (NO disease).
+What is the probability of disease in this city?
+What is the difference between linear regression and a t-test?
+
+
+
+===============
+Covariance only measures how two variables change together, not the dependency of one variable on another one.
+

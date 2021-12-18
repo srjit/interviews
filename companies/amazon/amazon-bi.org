@@ -1,0 +1,27 @@
+
+
+probability of the product coming from location A is 0.8 and from location B is 0.6. What is the probability the customers will receive the product from location A or location B
+
+1 - (P(A) and P(B))
+
+
+
+Tell me about yourself.
+Tell me about a time you made something much simpler for customers. (Principle: Customer Obsession)
+Tell me about a project you worked on that was not successful. What would you do differently? (Principle: Ownership)
+What’s the most innovative idea you’ve ever had? (Principle: Invent and Simplify)
+Tell me about a time you applied judgement to a decision when data was not available. (Principle: Are Right, A Lot)
+Why data science? (Principle: Learn and Be Curious)
+Where do you see yourself within the next 5 years? (Principle: Hire and Develop the Best)
+How would you improve this [project on your resume] if you had more time? (Principle: Insist on the Highest Standards)
+Tell me a time that a goal was hard to achieve. What did you learn from that? (Principle: Insist on the Highest Standards)
+Tell me about your most significant accomplishment. Why was it significant? (Principle: Think Big)
+Did you come across a scenario where the deadline given to you for a project was earlier than expected? How did you deal with it and what was the result? (Principle: Bias for Action)
+Describe the last time you figured out a way to keep an approach simple or to save on expenses (Principle: Frugality)
+What is the one feedback/complaint you always get from your colleagues? How are you working on such feedback? (Principle: Earn Trust)
+Tell me a time you used the data to come up with data-driven statistics, and how did you present your findings? (Principle: Dive Deep)
+Describe the situation when you had a disagreement with your manager, and how did you handle that? (Principle: Have Backbone; Disagree and Commit)
+How would you measure the impact of a business initiative? (Principle: Deliver Results)
+Tell me about a time when you had two deadlines at the same time. How did you manage the situation? (Principle: Deliver Results)
+What is the composition of your current team, and how are you encouraging their growth? (Principle: Strive to be Earth’s Best Employer)
+How have you left a previous post better than you found it? (Principle: Success and Scale Bring Broad Responsibility)

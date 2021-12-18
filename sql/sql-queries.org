@@ -1,0 +1,154 @@
+Important Commands
+========
+
+SELECT - extracts data from a database
+UPDATE - updates data in a database
+DELETE - deletes data from a database
+INSERT INTO - inserts new data into a database
+CREATE DATABASE - creates a new database
+ALTER DATABASE - modifies a database
+CREATE TABLE - creates a new table
+ALTER TABLE - modifies a table
+DROP TABLE - deletes a table
+CREATE INDEX - creates an index (search key)
+DROP INDEX - deletes an index
+
+in WHERE clause
+=======
+
+BETWEEN	Between a certain range	
+LIKE	Search for a pattern	
+IN	To specify multiple possible values for a column
+
+select * from employee2 where NAME like "%York";
+select * from employee2 where SALARY in (9000, 10000);
+
+
+WHERE
+=======
+
+Filtering records
+
+
+
+IS NULL / IS NOT NULL
+=========
+check for null or not null
+
+UPDATE
+=======
+
+* Modify existing statement
+
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE Nth;
+
+* update without where will update all records
+
+UPDATE CUSTOMERS SET CITY="oslo"
+
+DELETE
+========
+
+delete all rows without deleting table
+
+DELETE FROM Customers;
+
+
+LIKE
+======
+
+WHERE CustomerName LIKE 'a__%'
+WHERE CustomerName LIKE '[!bsp]%' --- does not start with b, s or p
+
+BETWEEN
+======
+
+WHERE Price BETWEEN 10 AND 20;
+
+
+ALIAS
+======
+
+AS
+
+UNION Vs UNION ALL
+=========
+union -> all rows including duplicates
+union all -> all rows
+
+
+The HAVING clause was added to SQL because the WHERE keyword cannot be used with aggregate functions.
+=========
+
+[[file:having.png]]
+
+
+select e.LastName, count(o.OrderID) as orders
+from employees e inner join orders o
+on e.employeeid = o.employeeid 
+group by e.lastname
+having orders > 10
+
+EXISTS
+========
+
+check if rows exist in a subquery
+
+SELECT SupplierName
+FROM Suppliers
+WHERE EXISTS (SELECT ProductName FROM Products WHERE Products.SupplierID = Suppliers.supplierID AND Price > 2000);
+
+
+INSERT INTO
+============
+
+insert into new_table (col1, col2 ...) select * from old_table;
+
+
+
+
+condition Highest 
+=============
+
+select * from (select city, avg(salary) avg_salary from employee group by city) where avg_salary > 10000;
+
+
+JOINS
+========
+
+[[file:join.png]]
+
+SELF JOIN
+========
+
+[[file:self-join.png]]
+
+
+UPDATE IS AN EDIT STATEMENT
+
+
+
+To DO
+-------
+
+
+DELETE DUPLICATES
+===================
+
+
+
+
+COMPANY SELECT
+=================
+
+https://www.hackerrank.com/challenges/the-company/problem
+
+
+ LOAD DATA LOCAL INFILE
+'/Users/sreejithsreekumar/code/interviews/sql/jobs.csv'
+INTO TABLE jobs
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"' 
+LINES TERMINATED BY '\n';

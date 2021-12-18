@@ -1,4 +1,16 @@
 
 Sampling
+
 Probability Sampling techniques: Clustered sampling, Simple random sampling, Stratified sampling.
 Non-Probability Sampling techniques: Quota sampling, Convenience sampling, snowball sampling, etc.
+
+
+* Explained Sum of Squares
+
+** Amount of varience explained by the model
+
+   \[
+   \Sum{i=1}y{n}(hat{y})
+   \]
+
+
