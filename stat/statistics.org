@@ -1,0 +1,27 @@
+#+title: Statistics Questions 1
+#+author: Sreejith Sreekumar
+#+date:   2021-12-18
+
+
+* Analytics Vidhya [[https://www.analyticsvidhya.com/blog/2021/04/25-probability-and-statistics-questions-to-ace-your-data-science-interviews/#h2_3][_URL_]]
+
+  - Let X and Y be normal random variables with their respective means 3 and 4 and variances 9 and 16, then 2X-Y will have normal distribution with parameters?
+  - Suppose X and Y take values {0,1} and are independent with P(X=1)=1/2 and P(Y=1)=1/3. What is the probability that P(X+Y=1)
+
+* T-Statistic
+
+  Whenever you conduct a t-test, you will get a test statistic as a result.
+  To determine if the results of the t-test are statistically significant, you can compare the test statistic to a
+  T critical value.
+  If the absolute value of the test statistic is greater than the T critical value,
+  then the results of the test are statistically significant. \\
+
+  Find critical value
+
+  scipy.stats.t.ppf(q, df)
+
+  where:
+
+  q: The significance level to use
+  df: The degrees of freedom
+
