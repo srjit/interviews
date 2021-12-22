@@ -1,0 +1,7 @@
+
+#+TITLE: Data Science Coding Questions
+
+* Write out a function to calculate the AUC of an ROC curve.
+* Given a random Bernoulli trial generator, write a function to return a value sampled from a normal distribution.
+
+* 

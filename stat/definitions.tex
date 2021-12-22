@@ -1,0 +1,116 @@
+% Created 2021-12-22 Wed 09:50
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{Sreejith Sreekumar}
+\date{\today}
+\title{Stat Definitions}
+\hypersetup{
+ pdfauthor={Sreejith Sreekumar},
+ pdftitle={Stat Definitions},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 27.2 (Org mode 9.4.4)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+
+\section{\underline{Confidence Interval}}
+\label{sec:org87b7a6f}
+\begin{itemize}
+\item A confidence interval gives the PROBABILITY that our true value lies within the range of values. Bigger interval = higher probability
+\end{itemize}
+
+\section{\underline{Probability}}
+\label{sec:org70dd510}
+\begin{itemize}
+\item Area under an interval of a distribution curve.
+\end{itemize}
+
+\section{\underline{Likelihood} vs Probability}
+\label{sec:orgfe0104d}
+
+\begin{itemize}
+\item \href{https://stats.stackexchange.com/a/183885/84189}{Answer from Cross Validated}
+Likelihood: What is the best values of the parameters so that the data that we observed follows a <some> distribution?
+Probability: Assuming that the data comes from a certain distribution what is the chance. Probability is the area under the PDF curve
+\end{itemize}
+
+\section{\underline{Percentage of normal distribution lies within 1 std of mean? 2, 3 std?}}
+\label{sec:org18540c4}
+\begin{itemize}
+\item 68\%, 95\%, 99.7\%
+\end{itemize}
+
+\section{\underline{SGD Update Rule}}
+\label{sec:orgbcec943}
+
+$$\theta = \theta - \alpha \Delta J(\theta)$$
+$$(Current\ \theta \ vector) - learning\ rate * (Gradient\ of\ Slope)$$
+
+\section{\underline{Probability and Statistics}}
+\label{sec:org778496e}
+
+The problems considered by probability and statistics are inverse to each other.
+In probability theory we consider some underlying process which has some randomness or uncertainty modeled by random variables, and we figure out what happens.
+In statistics we observe something that has happened, and try to figure out what underlying process would explain those observations.
+
+\section{\underline{Law of Large Numbers}}
+\label{sec:orga05d1a4}
+
+If you repeat an experiment independently a large number of times and average the result, what you obtain should be close to the expected value
+
+\section{\underline{Central Limit Theorem}}
+\label{sec:org750af85}
+
+\section{\underline{Type I and Type II Error}}
+\label{sec:org849d720}
+
+Type 1: False Positive, Type 2: False Negative
+
+\section{\underline{Inverse Document Frequency}}
+\label{sec:org7c8033c}
+
+$$idf = log \frac{|D|}{d : ti \in d}$$
+where | D | is the number of documents in our corpus, and | \{d : ti \(\in\) d\} | is the number of documents in which the term appears.
+
+\section{\underline{Kolmogorov - Smirnov Test}}
+\label{sec:org49a3dc2}
+
+Tests whether sample fits a distribution well.
+
+\section{\underline{Confidence Interval}}
+\label{sec:orgb476252}
+
+There are 100 products and 25 of them are bad. What is the confidence interval?
+
+p = 25/100 = 0.25
+
+CI = 0.25 +/- 1.96 sqrt( (0.25(1-0.25)) * 100)
+CI = p +/- Z * sqrt(variance of binom dist)
+
+CI = (16.5,33.5)
+
+95\% confidence = plus or minus 1.96 STDEV
+
+\section{\underline{Isolation Forest}}
+\label{sec:orge7468f1}
+
+Creates splits like a random forest, but find out how difficult is it to isolate the path to split an instance.
+Answer: \href{https://www.quora.com/What-is-the-difference-between-random-forest-and-isolation-forest}{Quora}
+\end{document}

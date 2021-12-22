@@ -1,0 +1,68 @@
+
+#+TITLE: Stat Definitions
+#+AUTHOR: Sreejith Sreekumar
+
+* _Confidence Interval_
+  - A confidence interval gives the PROBABILITY that our true value lies within the range of values. Bigger interval = higher probability
+
+* _Probability_
+  - Area under an interval of a distribution curve.
+
+* _Likelihood_ vs Probability
+
+ - [[https://stats.stackexchange.com/a/183885/84189][Answer from Cross Validated]]
+    Likelihood: What is the best values of the parameters so that the data that we observed follows a <some> distribution?
+    Probability: Assuming that the data comes from a certain distribution what is the chance. Probability is the area under the PDF curve
+
+* _Percentage of normal distribution lies within 1 std of mean? 2, 3 std?_
+  - 68%, 95%, 99.7%
+
+* _SGD Update Rule_
+
+  $$\theta = \theta - \alpha \Delta J(\theta)$$
+  $$(Current\ \theta \ vector) - learning\ rate * (Gradient\ of\ Slope)$$
+
+* _Probability and Statistics_
+
+  The problems considered by probability and statistics are inverse to each other.
+  In probability theory we consider some underlying process which has some randomness or uncertainty modeled by random variables, and we figure out what happens.
+  In statistics we observe something that has happened, and try to figure out what underlying process would explain those observations.
+
+* _Law of Large Numbers_
+
+  If you repeat an experiment independently a large number of times and average the result, what you obtain should be close to the expected value
+
+* _Central Limit Theorem_
+
+* _Type I and Type II Error_
+
+  Type 1: False Positive, Type 2: False Negative
+
+* _Inverse Document Frequency_
+
+  $$idf = log \frac{|D|}{d : ti \in d}$$
+  where | D | is the number of documents in our corpus, and | {d : ti \in d} | is the number of documents in which the term appears.
+
+* _Kolmogorov - Smirnov Test_
+
+  Tests whether sample fits a distribution well.
+
+* _Confidence Interval_
+
+  There are 100 products and 25 of them are bad. What is the confidence interval?
+
+  p = 25/100 = 0.25
+
+  CI = 0.25 +/- 1.96 sqrt( (0.25(1-0.25)) * 100)
+  CI = p +/- Z * sqrt(variance of binom dist)
+
+  CI = (16.5,33.5)
+
+  95% confidence = plus or minus 1.96 STDEV
+
+* _Isolation Forest_
+
+  Creates splits like a random forest, but find out how difficult is it to isolate the path to split an instance.
+  Answer: [[https://www.quora.com/What-is-the-difference-between-random-forest-and-isolation-forest][Quora]]
+
+  

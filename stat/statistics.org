@@ -3,6 +3,8 @@
 #+date:   2021-12-18
 
 
+
+
 * Analytics Vidhya [[https://www.analyticsvidhya.com/blog/2021/04/25-probability-and-statistics-questions-to-ace-your-data-science-interviews/#h2_3][_URL_]]
 
   - Let X and Y be normal random variables with their respective means 3 and 4 and variances 9 and 16, then 2X-Y will have normal distribution with parameters?
