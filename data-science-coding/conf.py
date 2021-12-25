@@ -24,9 +24,7 @@ for actual, predicted in zip(prediction, actual):
 
 confusion_matrix = [[tp, fn], [fp, tn]]
 
-print(confusion_matrix_manual)
-
-
+print(confusion_matrix)
 print("Sensitivity:", tp/(tp+fn))
 print("Specificity:", tp/(tp+fp))
             

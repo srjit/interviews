@@ -1,0 +1,9 @@
+
+* T tests Anova Regression Distributions
+* chi-square, t-tests, ANOVA
+* https://quanthub.com/data-science-interview-questions/
+* https://gist.github.com/yonghyeokrhee/f56e4f6eb6589774cd3b73bfdf8348e7
+
+Stats: mostly consist of chi-square, t-tests, ANOVA etc along with some basic calculations;
+R: you need to be proficient in R to perform well. Example of a question: you get a dataset in R, do some manipulations and choose the correct output in the Mcq – keep RStudio open and maybe also a Jupyter notebook or any of your preferred python ide;
+Python: You need to be proficient in Python to perform well.
