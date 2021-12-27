@@ -1,4 +1,4 @@
-% Created 2021-12-27 Mon 00:46
+% Created 2021-12-27 Mon 12:26
 % Intended LaTeX compiler: pdflatex
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
@@ -34,19 +34,19 @@
 
 
 \section{\underline{Confidence Interval}}
-\label{sec:orgce1eb5d}
+\label{sec:orge5259c3}
 \begin{itemize}
 \item A confidence interval gives the PROBABILITY that our true value lies within the range of values. Bigger interval = higher probability
 \end{itemize}
 
 \section{\underline{Probability}}
-\label{sec:orga6fa2ab}
+\label{sec:org12a2817}
 \begin{itemize}
 \item Area under an interval of a distribution curve.
 \end{itemize}
 
 \section{\underline{Likelihood} vs Probability}
-\label{sec:org0a64845}
+\label{sec:orgf6b2630}
 
 \begin{itemize}
 \item \href{https://stats.stackexchange.com/a/183885/84189}{Answer from Cross Validated}
@@ -55,57 +55,57 @@ Probability: Assuming that the data comes from a certain distribution what is th
 \end{itemize}
 
 \section{\underline{Percentage of normal distribution lies within 1 std of mean? 2, 3 std?}}
-\label{sec:org6d9075b}
+\label{sec:org2f5d5f1}
 \begin{itemize}
 \item 68\%, 95\%, 99.7\%
 \end{itemize}
 
 \section{\underline{SGD Update Rule}}
-\label{sec:org1972986}
+\label{sec:org012e669}
 
 $$\theta = \theta - \alpha \Delta J(\theta)$$
 $$(Current\ \theta \ vector) - learning\ rate * (Gradient\ of\ Slope)$$
 
 \section{\underline{Probability and Statistics}}
-\label{sec:org7d40281}
+\label{sec:orgbc96354}
 
 The problems considered by probability and statistics are inverse to each other.
 In probability theory we consider some underlying process which has some randomness or uncertainty modeled by random variables, and we figure out what happens.
 In statistics we observe something that has happened, and try to figure out what underlying process would explain those observations.
 
 \section{\underline{Law of Large Numbers}}
-\label{sec:orgbb825c1}
+\label{sec:orgc4d5f17}
 
 If you repeat an experiment independently a large number of times and average the result, what you obtain should be close to the expected value
 
 \section{\underline{Central Limit Theorem}}
-\label{sec:orgf2252ae}
+\label{sec:orgf04c379}
 
 \section{\underline{Type I and Type II Error}}
-\label{sec:org413375b}
+\label{sec:org4d827b9}
 
 Type 1: False Positive, Type 2: False Negative
 
 \section{\underline{Inverse Document Frequency}}
-\label{sec:orgf4c7f6c}
+\label{sec:org6a53787}
 
 $$idf = log \frac{|D|}{d : ti \in d}$$
 where | D | is the number of documents in our corpus, and | \{d : ti \(\in\) d\} | is the number of documents in which the term appears.
 
 \section{\underline{Kolmogorov - Smirnov Test}}
-\label{sec:org1cd0188}
+\label{sec:orgd1f6c96}
 
 Tests whether sample fits a distribution well.
 
 \section{\underline{Normal Distribution Standard Deviations}}
-\label{sec:org59f04f2}
+\label{sec:orgf6569d7}
 
 \begin{center}
 \includegraphics[width=.9\linewidth]{normal-sd.png}
 \end{center}
 
 \section{\underline{Confidence Interval}}
-\label{sec:org4fafc31}
+\label{sec:orgf639908}
 
 There are 100 products and 25 of them are bad. What is the confidence interval? \\
 
@@ -120,18 +120,18 @@ CI = (16.5,33.5) \\
 95\% confidence = plus or minus 1.96 STDEV
 
 \subsection{\underline{Margin of Error}}
-\label{sec:orgd922751}
+\label{sec:org80a6eed}
 
 Margin of Error = \(t * \frac{s}{\sqrt{n}}\)
 
 \section{\underline{Isolation Forest}}
-\label{sec:org2732bbd}
+\label{sec:orgd09cd1d}
 
 Creates splits like a random forest, but find out how difficult is it to isolate the path to split an instance.
 Answer: \href{https://www.quora.com/What-is-the-difference-between-random-forest-and-isolation-forest}{Quora}
 
 \section{\underline{T-Test (Two Sample)}}
-\label{sec:orgfc2c4c0}
+\label{sec:org3fcef77}
 
 \begin{itemize}
 \item Both has to be normal distributions
@@ -142,7 +142,7 @@ Answer: \href{https://www.quora.com/What-is-the-difference-between-random-forest
 \end{itemize}
 
 \section{\underline{T-Test and Z-Test for one sample}}
-\label{sec:orgca802ca}
+\label{sec:orgd71e40b}
 
 \begin{itemize}
 \item T-test is used when the sample size is less than 30
@@ -152,7 +152,7 @@ z-test = \(\frac{\bar{x} - \mu}{\frac{\sigma}{\sqrt{n}}}\)
 \item when sample size is > 30 and \(\sigma\) is available, use \textbf{Z-test}, else use \textbf{T-Test}
 \end{itemize}
 \section{\underline{Chi-Squred Test}}
-\label{sec:org27a532c}
+\label{sec:org74bbc20}
 
 If there is a statistically significant difference in the observed vs expected counts.
 
@@ -184,13 +184,13 @@ Since this value is greater than 0.72, we accept Null Hypothesis
 
 
 \section{\underline{Probability Distributions}}
-\label{sec:org573f052}
+\label{sec:org61a488d}
 
 Mathematical Function that gives the probabilities of occurrence of different
 possible outcomes for an experiment. \\
 
 \subsection{Binomial:}
-\label{sec:orgcdedb89}
+\label{sec:org9b75688}
 
 Coin toss event repeated n times, with probability p of success. 
 
@@ -205,7 +205,7 @@ Coin toss event repeated n times, with probability p of success.
 \end{itemize}
 
 \subsection{Exponential}
-\label{sec:org8377971}
+\label{sec:orge66665b}
 
 \begin{itemize}
 \item Exponential distribution is often concerned with the amount of time until some specific event occurs.
@@ -234,6 +234,30 @@ plt.show()
 \end{verbatim}
 
 \begin{center}
-\includegraphics[width=.9\linewidth]{./obipy-resources/Mow79W.png}
+\includegraphics[width=10cm]{./obipy-resources/Mow79W.png}
 \end{center}
+
+\section{\underline{Maximum Likelihood Estimation}}
+\label{sec:orgf6bcfb9}
+
+Location which maximizes the likelihood of the data we measured.
+
+\begin{itemize}
+\item Start with a random estimate (and random parameters)
+\item Observe the data
+\item Adjust the parameters to some data so that the estimates of the parameter are better
+\item Observe more data
+\item Adjust \ldots{}
+
+Likelihood given all data points
+
+L(\(\mu\), \(\sigma\)| x1, x2,\ldots{},xn) =  L(\(\mu\), \(\sigma\)| x1) *  L(\(\mu\), \(\sigma\)| x2)\ldots{}
+
+\item Take derivative wrt \(\mu\) , and treat \(\sigma\) like it is constant; and equate it to 0
+\item Take derivate wrt \(\sigma\), and treat \(\mu\) like it is a constant
+\item Take ln
+
+MLE calculation of Normal Distribution:
+\href{./mle-normal-dist.pdf}{Derivation}
+\end{itemize}
 \end{document}

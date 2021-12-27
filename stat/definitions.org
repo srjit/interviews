@@ -169,6 +169,25 @@
 : # Out[9]:
 : [[file:./obipy-resources/Mow79W.png]]
 
-#+BIND: org-latex-image-default-width "0.98\\linewidth"
+#+ATTR_LATEX: :width 10cm
 [[file:./obipy-resources/Mow79W.png]]
 
+* _Maximum Likelihood Estimation_
+
+  Location which maximizes the likelihood of the data we measured.
+
+  - Start with a random estimate (and random parameters)
+  - Observe the data
+  - Adjust the parameters to some data so that the estimates of the parameter are better
+  - Observe more data
+  - Adjust ...
+
+    Likelihood given all data points
+
+     L(\mu, \sigma| x1, x2,...,xn) =  L(\mu, \sigma| x1) *  L(\mu, \sigma| x2)...
+
+  -  Take derivative wrt \mu , and treat \sigma like it is constant; and equate it to 0
+  -  Take derivate wrt \sigma, and treat \mu like it is a constant
+  -  Take ln
+  -  MLE calculation of Normal Distribution:
+    [[file:./mle-normal-dist.pdf][Derivation]]
