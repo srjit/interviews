@@ -1,4 +1,9 @@
 
+* There are four people in an elevator, four floors in the building, and each person exits at random. Find the probability that:
+  a) all exit at different floors
+  b) all exit at the same floor
+  c) two get off at one floor and two get off at another
+* https://stats.stackexchange.com/questions/171451/check-whether-a-coin-is-fair
 * What is the expected value of flips to get heads on a fair coin?
 * https://quizlet.com/565183311/probstats-and-ml-interview-questions-flash-cards/
 *  https://www.kaggle.com/getting-started/37489

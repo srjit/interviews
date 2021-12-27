@@ -1,4 +1,4 @@
-% Created 2021-12-22 Wed 09:50
+% Created 2021-12-27 Mon 00:46
 % Intended LaTeX compiler: pdflatex
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
@@ -14,6 +14,7 @@
 \usepackage{amssymb}
 \usepackage{capt-of}
 \usepackage{hyperref}
+\usepackage[margin=.5in]{geometry}
 \author{Sreejith Sreekumar}
 \date{\today}
 \title{Stat Definitions}
@@ -30,20 +31,22 @@
 \tableofcontents
 
 
+
+
 \section{\underline{Confidence Interval}}
-\label{sec:org87b7a6f}
+\label{sec:orgce1eb5d}
 \begin{itemize}
 \item A confidence interval gives the PROBABILITY that our true value lies within the range of values. Bigger interval = higher probability
 \end{itemize}
 
 \section{\underline{Probability}}
-\label{sec:org70dd510}
+\label{sec:orga6fa2ab}
 \begin{itemize}
 \item Area under an interval of a distribution curve.
 \end{itemize}
 
 \section{\underline{Likelihood} vs Probability}
-\label{sec:orgfe0104d}
+\label{sec:org0a64845}
 
 \begin{itemize}
 \item \href{https://stats.stackexchange.com/a/183885/84189}{Answer from Cross Validated}
@@ -52,65 +55,185 @@ Probability: Assuming that the data comes from a certain distribution what is th
 \end{itemize}
 
 \section{\underline{Percentage of normal distribution lies within 1 std of mean? 2, 3 std?}}
-\label{sec:org18540c4}
+\label{sec:org6d9075b}
 \begin{itemize}
 \item 68\%, 95\%, 99.7\%
 \end{itemize}
 
 \section{\underline{SGD Update Rule}}
-\label{sec:orgbcec943}
+\label{sec:org1972986}
 
 $$\theta = \theta - \alpha \Delta J(\theta)$$
 $$(Current\ \theta \ vector) - learning\ rate * (Gradient\ of\ Slope)$$
 
 \section{\underline{Probability and Statistics}}
-\label{sec:org778496e}
+\label{sec:org7d40281}
 
 The problems considered by probability and statistics are inverse to each other.
 In probability theory we consider some underlying process which has some randomness or uncertainty modeled by random variables, and we figure out what happens.
 In statistics we observe something that has happened, and try to figure out what underlying process would explain those observations.
 
 \section{\underline{Law of Large Numbers}}
-\label{sec:orga05d1a4}
+\label{sec:orgbb825c1}
 
 If you repeat an experiment independently a large number of times and average the result, what you obtain should be close to the expected value
 
 \section{\underline{Central Limit Theorem}}
-\label{sec:org750af85}
+\label{sec:orgf2252ae}
 
 \section{\underline{Type I and Type II Error}}
-\label{sec:org849d720}
+\label{sec:org413375b}
 
 Type 1: False Positive, Type 2: False Negative
 
 \section{\underline{Inverse Document Frequency}}
-\label{sec:org7c8033c}
+\label{sec:orgf4c7f6c}
 
 $$idf = log \frac{|D|}{d : ti \in d}$$
 where | D | is the number of documents in our corpus, and | \{d : ti \(\in\) d\} | is the number of documents in which the term appears.
 
 \section{\underline{Kolmogorov - Smirnov Test}}
-\label{sec:org49a3dc2}
+\label{sec:org1cd0188}
 
 Tests whether sample fits a distribution well.
 
+\section{\underline{Normal Distribution Standard Deviations}}
+\label{sec:org59f04f2}
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{normal-sd.png}
+\end{center}
+
 \section{\underline{Confidence Interval}}
-\label{sec:orgb476252}
+\label{sec:org4fafc31}
 
-There are 100 products and 25 of them are bad. What is the confidence interval?
+There are 100 products and 25 of them are bad. What is the confidence interval? \\
 
-p = 25/100 = 0.25
+p = 25/100 = 0.25 \\
 
-CI = 0.25 +/- 1.96 sqrt( (0.25(1-0.25)) * 100)
-CI = p +/- Z * sqrt(variance of binom dist)
+CI = 0.25 +/- 1.96 sqrt( (0.25(1-0.25)) * 100) \\
 
-CI = (16.5,33.5)
+CI = p +/- Z * sqrt(variance of binom dist) \\
+
+CI = (16.5,33.5) \\
 
 95\% confidence = plus or minus 1.96 STDEV
 
+\subsection{\underline{Margin of Error}}
+\label{sec:orgd922751}
+
+Margin of Error = \(t * \frac{s}{\sqrt{n}}\)
+
 \section{\underline{Isolation Forest}}
-\label{sec:orge7468f1}
+\label{sec:org2732bbd}
 
 Creates splits like a random forest, but find out how difficult is it to isolate the path to split an instance.
 Answer: \href{https://www.quora.com/What-is-the-difference-between-random-forest-and-isolation-forest}{Quora}
+
+\section{\underline{T-Test (Two Sample)}}
+\label{sec:orgfc2c4c0}
+
+\begin{itemize}
+\item Both has to be normal distributions
+\item Both needs to have similar variance
+\item \(\sigma\) is unknown
+\item Smaller sample sizes (Ideally in the range of 20-30) or else we use \textbf{\textbf{z-test}}
+\item \(\frac{\bar{x1} - \bar{x2}}{\sqrt{\frac{s1^{2}}{n1} - \frac{s2^{2}}{n2}}}\)
+\end{itemize}
+
+\section{\underline{T-Test and Z-Test for one sample}}
+\label{sec:orgca802ca}
+
+\begin{itemize}
+\item T-test is used when the sample size is less than 30
+\item t-Test = \(\frac{\bar{x} - \mu}{\frac{s}{\sqrt{n}}}\)
+\item From CLT, as n increased sample sd will be similar to population sd \\
+z-test = \(\frac{\bar{x} - \mu}{\frac{\sigma}{\sqrt{n}}}\)
+\item when sample size is > 30 and \(\sigma\) is available, use \textbf{Z-test}, else use \textbf{T-Test}
+\end{itemize}
+\section{\underline{Chi-Squred Test}}
+\label{sec:org27a532c}
+
+If there is a statistically significant difference in the observed vs expected counts.
+
+\(\chi{2} = \Sigma\frac{(O_{i} - E_{i})^2}{E_{i}}\) \\
+
+
+Example:
+
+\noindent\rule{\textwidth}{0.5pt}
+Coin tossed 50 times.
+
+Expected: 25H 25T
+
+Observed: 28H 22T \\
+
+
+\(\frac{(28-25)^2}{25} +   \frac{(22-25)^2}{25}\) \\
+
+\(= \frac{9}{25} + \frac{9}{25}\) \\
+
+\(= \frac{18}{25}\) \\
+
+\(= 0.72\) \\
+
+H0: There is no statistically significant difference between observed values and expected values.
+
+For a critical value of 0.05, and degree of freedom (n-1 = 1)   \(\chi^{2}\) = 3.84
+Since this value is greater than 0.72, we accept Null Hypothesis
+
+
+\section{\underline{Probability Distributions}}
+\label{sec:org573f052}
+
+Mathematical Function that gives the probabilities of occurrence of different
+possible outcomes for an experiment. \\
+
+\subsection{Binomial:}
+\label{sec:orgcdedb89}
+
+Coin toss event repeated n times, with probability p of success. 
+
+\begin{itemize}
+\item \(nCr . P^{r} . (1 - P)^{n-r}\)
+\item Discrete with parameters (n, p)
+\item n independent experiments
+\item Success p
+\item Failure (1-p)
+\item Mean: np,
+\item Median: \(\lfloor np \rfloor\), \(\lceil np \rceil\)
+\end{itemize}
+
+\subsection{Exponential}
+\label{sec:org8377971}
+
+\begin{itemize}
+\item Exponential distribution is often concerned with the amount of time until some specific event occurs.
+\item \(f(x) = me^{-mx}\)
+\item Decay parameter, \(m = \frac{1}{\mu}\)
+\item \(\mu = \sigma\)
+\end{itemize}
+
+\begin{verbatim}
+import matplotlib.pyplot as plt
+import numpy as np
+
+def get_ex(m, x):
+    return round(m * np.power(np.e, -m*x), 2)
+
+points = [(x, get_ex(0.25, x)) for x in list(range(20))]
+
+xs = [x[0] for x in points]
+ys = [y[1] for y in points]
+
+f, ax = plt.subplots()
+ax.scatter(xs, ys)
+ax.set_ylabel("f(x)")
+ax.set_xlabel("mu = 4")
+plt.show()
+\end{verbatim}
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{./obipy-resources/Mow79W.png}
+\end{center}
 \end{document}

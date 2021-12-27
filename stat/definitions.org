@@ -1,6 +1,9 @@
 
 #+TITLE: Stat Definitions
 #+AUTHOR: Sreejith Sreekumar
+#+LATEX_HEADER: \usepackage[margin=.5in]{geometry}
+
+
 
 * _Confidence Interval_
   - A confidence interval gives the PROBABILITY that our true value lies within the range of values. Bigger interval = higher probability
@@ -47,22 +50,125 @@
 
   Tests whether sample fits a distribution well.
 
+* _Normal Distribution Standard Deviations_
+
+  [[file:normal-sd.png]]
+
 * _Confidence Interval_
 
-  There are 100 products and 25 of them are bad. What is the confidence interval?
+  There are 100 products and 25 of them are bad. What is the confidence interval? \\
 
-  p = 25/100 = 0.25
+  p = 25/100 = 0.25 \\ 
 
-  CI = 0.25 +/- 1.96 sqrt( (0.25(1-0.25)) * 100)
-  CI = p +/- Z * sqrt(variance of binom dist)
+  CI = 0.25 +/- 1.96 sqrt( (0.25(1-0.25)) * 100) \\
+  
+  CI = p +/- Z * sqrt(variance of binom dist) \\
 
-  CI = (16.5,33.5)
+  CI = (16.5,33.5) \\
 
   95% confidence = plus or minus 1.96 STDEV
+
+** _Margin of Error_
+
+  Margin of Error = $t * \frac{s}{\sqrt{n}}$
 
 * _Isolation Forest_
 
   Creates splits like a random forest, but find out how difficult is it to isolate the path to split an instance.
   Answer: [[https://www.quora.com/What-is-the-difference-between-random-forest-and-isolation-forest][Quora]]
 
+* _T-Test (Two Sample)_
+
+  - Both has to be normal distributions
+  - Both needs to have similar variance
+  - $\sigma$ is unknown
+  - Smaller sample sizes (Ideally in the range of 20-30) or else we use **z-test**
+  - $\frac{\bar{x1} - \bar{x2}}{\sqrt{\frac{s1^{2}}{n1} - \frac{s2^{2}}{n2}}}$
+
+* _T-Test and Z-Test for one sample_
+
+  - T-test is used when the sample size is less than 30
+  - t-Test = $\frac{\bar{x} - \mu}{\frac{s}{\sqrt{n}}}$
+  - From CLT, as n increased sample sd will be similar to population sd \\
+     z-test = $\frac{\bar{x} - \mu}{\frac{\sigma}{\sqrt{n}}}$
+  - when sample size is > 30 and $\sigma$ is available, use *Z-test*, else use *T-Test*
+* _Chi-Squred Test_
+
+  If there is a statistically significant difference in the observed vs expected counts.
+
+  $\chi{2} = \Sigma\frac{(O_{i} - E_{i})^2}{E_{i}}$ \\
+
   
+  Example:
+  -----
+  Coin tossed 50 times.
+  
+  Expected: 25H 25T
+  
+  Observed: 28H 22T \\
+  
+
+  $\frac{(28-25)^2}{25} +   \frac{(22-25)^2}{25}$ \\
+
+  $= \frac{9}{25} + \frac{9}{25}$ \\
+
+  $= \frac{18}{25}$ \\ 
+
+  $= 0.72$ \\
+
+  H0: There is no statistically significant difference between observed values and expected values.
+  
+  For a critical value of 0.05, and degree of freedom (n-1 = 1)   $\chi^{2}$ = 3.84
+  Since this value is greater than 0.72, we accept Null Hypothesis
+  
+  
+* _Probability Distributions_
+
+   Mathematical Function that gives the probabilities of occurrence of different
+   possible outcomes for an experiment. \\
+
+** Binomial:
+
+    Coin toss event repeated n times, with probability p of success. 
+
+   - $nCr . P^{r} . (1 - P)^{n-r}$
+   - Discrete with parameters (n, p)
+   - n independent experiments
+   - Success p
+   - Failure (1-p)
+   - Mean: np,
+   - Median: $\lfloor np \rfloor$, $\lceil np \rceil$
+
+** Exponential 
+
+   - Exponential distribution is often concerned with the amount of time until some specific event occurs.
+   - $f(x) = me^{-mx}$
+   - Decay parameter, $m = \frac{1}{\mu}$
+   - $\mu = \sigma$
+
+#+BEGIN_SRC ipython :session
+  import matplotlib.pyplot as plt
+  import numpy as np
+
+  def get_ex(m, x):
+      return round(m * np.power(np.e, -m*x), 2)
+
+  points = [(x, get_ex(0.25, x)) for x in list(range(20))]
+
+  xs = [x[0] for x in points]
+  ys = [y[1] for y in points]
+
+  f, ax = plt.subplots()
+  ax.scatter(xs, ys)
+  ax.set_ylabel("f(x)")
+  ax.set_xlabel("mu = 4")
+  plt.show()
+#+END_SRC
+
+#+RESULTS:
+: # Out[9]:
+: [[file:./obipy-resources/Mow79W.png]]
+
+#+BIND: org-latex-image-default-width "0.98\\linewidth"
+[[file:./obipy-resources/Mow79W.png]]
+
