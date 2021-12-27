@@ -166,22 +166,17 @@
 #+END_SRC
 
 #+RESULTS:
-: # Out[9]:
-: [[file:./obipy-resources/Mow79W.png]]
+: # Out[43]:
+:
 
 #+ATTR_LATEX: :width 10cm
-[[file:./obipy-resources/Mow79W.png]]
+[[file:./obipy-resources/ZODX3e.png]]
 
 * _Maximum Likelihood Estimation_
 
   Location which maximizes the likelihood of the data we measured.
 
-  - Start with a random estimate (and random parameters)
-  - Observe the data
-  - Adjust the parameters to some data so that the estimates of the parameter are better
-  - Observe more data
-  - Adjust ...
-
+  
     Likelihood given all data points
 
      L(\mu, \sigma| x1, x2,...,xn) =  L(\mu, \sigma| x1) *  L(\mu, \sigma| x2)...
@@ -190,4 +185,16 @@
   -  Take derivate wrt \sigma, and treat \mu like it is a constant
   -  Take ln
   -  MLE calculation of Normal Distribution:
-    [[file:./mle-normal-dist.pdf][Derivation]]
+
+     [[file:./mle-normal-dist.pdf][Derivation]]
+
+* _EM Algorithms_
+
+    Goal: $\theta_{MLE} \in argmax_{\theta}P_{\theta}(x)$
+    Problem: $P_{\theta}(x) = \sum_{x} P_{\theta}(x)$ is difficult to maximize
+  
+  - Start with a random estimate (and random parameters)
+  - Observe the data
+  - Adjust the parameters to some data so that the estimates of the parameter are better
+  - Observe more data
+  - Adjust ...
