@@ -1,4 +1,42 @@
 
+#+TITLE: Stat Questions
+#+AUTHOR: Sreejith Sreekumar
+#+LATEX_HEADER: \usepackage[margin=.5in]{geometry}
+
+
+* Standard error of median
+   - [[https://archive.ph/eW8MS]]
+* Interpret standard error of the mean
+* How to generate a matrix that follows bernoulli distribution in python
+  
+  #+begin_SRC ipython :session
+   import numpy as np
+
+   def bernoulli_pmf(x,p=0.5):
+
+      f = p**x*(1-p)**(1-x)
+      return f
+
+
+   def get_random_bernoulli(p=0.5):
+
+       if np.random.rand() <= p:
+           return 0
+       else:
+           return 1
+
+   bernoulli = np.array([[get_random_bernoulli() for j in range(4)] for i in range(4)])
+
+   print(bernoulli)
+
+  #+end_SRC
+
+  #+RESULTS:
+  : # Out[2]:
+  
+* Divide each element of the matrix with sum of columns
+*
+  
 * There are four people in an elevator, four floors in the building, and each person exits at random. Find the probability that:
   a) all exit at different floors
   b) all exit at the same floor
@@ -14,4 +52,4 @@
 
 
 
-  
+  (0.2*0.25) + (.15* )

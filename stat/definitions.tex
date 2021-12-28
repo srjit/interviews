@@ -1,4 +1,4 @@
-% Created 2021-12-27 Mon 18:25
+% Created 2021-12-27 Mon 23:06
 % Intended LaTeX compiler: pdflatex
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
@@ -34,19 +34,19 @@
 
 
 \section{\underline{Confidence Interval}}
-\label{sec:orgef673b3}
+\label{sec:org8fbec10}
 \begin{itemize}
 \item A confidence interval gives the PROBABILITY that our true value lies within the range of values. Bigger interval = higher probability
 \end{itemize}
 
 \section{\underline{Probability}}
-\label{sec:org9502d9e}
+\label{sec:org74be2e8}
 \begin{itemize}
 \item Area under an interval of a distribution curve.
 \end{itemize}
 
 \section{\underline{Likelihood} vs Probability}
-\label{sec:orgde0c31e}
+\label{sec:org94b6264}
 
 \begin{itemize}
 \item \href{https://stats.stackexchange.com/a/183885/84189}{Answer from Cross Validated}
@@ -55,57 +55,57 @@ Probability: Assuming that the data comes from a certain distribution what is th
 \end{itemize}
 
 \section{\underline{Percentage of normal distribution lies within 1 std of mean? 2, 3 std?}}
-\label{sec:org564aaa5}
+\label{sec:orgff1049d}
 \begin{itemize}
 \item 68\%, 95\%, 99.7\%
 \end{itemize}
 
 \section{\underline{SGD Update Rule}}
-\label{sec:org043f7d8}
+\label{sec:orgc7e8bb9}
 
 $$\theta = \theta - \alpha \Delta J(\theta)$$
 $$(Current\ \theta \ vector) - learning\ rate * (Gradient\ of\ Slope)$$
 
 \section{\underline{Probability and Statistics}}
-\label{sec:org9430368}
+\label{sec:org937ff47}
 
 The problems considered by probability and statistics are inverse to each other.
 In probability theory we consider some underlying process which has some randomness or uncertainty modeled by random variables, and we figure out what happens.
 In statistics we observe something that has happened, and try to figure out what underlying process would explain those observations.
 
 \section{\underline{Law of Large Numbers}}
-\label{sec:orga11c8de}
+\label{sec:org6637a8b}
 
 If you repeat an experiment independently a large number of times and average the result, what you obtain should be close to the expected value
 
 \section{\underline{Central Limit Theorem}}
-\label{sec:orgc1be798}
+\label{sec:orgd3aa75e}
 
 \section{\underline{Type I and Type II Error}}
-\label{sec:org5cb734c}
+\label{sec:org31774ea}
 
 Type 1: False Positive, Type 2: False Negative
 
 \section{\underline{Inverse Document Frequency}}
-\label{sec:org6313f3e}
+\label{sec:orgc9672ea}
 
 $$idf = log \frac{|D|}{d : ti \in d}$$
 where | D | is the number of documents in our corpus, and | \{d : ti \(\in\) d\} | is the number of documents in which the term appears.
 
 \section{\underline{Kolmogorov - Smirnov Test}}
-\label{sec:org9e48848}
+\label{sec:org9316ccb}
 
 Tests whether sample fits a distribution well.
 
 \section{\underline{Normal Distribution Standard Deviations}}
-\label{sec:org384f44f}
+\label{sec:org79bb30d}
 
 \begin{center}
 \includegraphics[width=.9\linewidth]{normal-sd.png}
 \end{center}
 
 \section{\underline{Confidence Interval}}
-\label{sec:org50c92f6}
+\label{sec:orgca8dcda}
 
 There are 100 products and 25 of them are bad. What is the confidence interval? \\
 
@@ -120,18 +120,18 @@ CI = (16.5,33.5) \\
 95\% confidence = plus or minus 1.96 STDEV
 
 \subsection{\underline{Margin of Error}}
-\label{sec:orgb2d1203}
+\label{sec:org5f06ddd}
 
 Margin of Error = \(t * \frac{s}{\sqrt{n}}\)
 
 \section{\underline{Isolation Forest}}
-\label{sec:orgb0ee0d0}
+\label{sec:orgef19899}
 
 Creates splits like a random forest, but find out how difficult is it to isolate the path to split an instance.
 Answer: \href{https://www.quora.com/What-is-the-difference-between-random-forest-and-isolation-forest}{Quora}
 
 \section{\underline{T-Test (Two Sample)}}
-\label{sec:orgd1544ad}
+\label{sec:org51a5bcd}
 
 \begin{itemize}
 \item Both has to be normal distributions
@@ -142,7 +142,7 @@ Answer: \href{https://www.quora.com/What-is-the-difference-between-random-forest
 \end{itemize}
 
 \section{\underline{T-Test and Z-Test for one sample}}
-\label{sec:orgece55d7}
+\label{sec:orgd174654}
 
 \begin{itemize}
 \item T-test is used when the sample size is less than 30
@@ -152,7 +152,7 @@ z-test = \(\frac{\bar{x} - \mu}{\frac{\sigma}{\sqrt{n}}}\)
 \item when sample size is > 30 and \(\sigma\) is available, use \textbf{Z-test}, else use \textbf{T-Test}
 \end{itemize}
 \section{\underline{Chi-Squred Test}}
-\label{sec:org806c59e}
+\label{sec:org5b7c362}
 
 If there is a statistically significant difference in the observed vs expected counts.
 
@@ -184,13 +184,13 @@ Since this value is greater than 0.72, we accept Null Hypothesis
 
 
 \section{\underline{Probability Distributions}}
-\label{sec:org05cbfc6}
+\label{sec:org58448ba}
 
 Mathematical Function that gives the probabilities of occurrence of different
 possible outcomes for an experiment. \\
 
 \subsection{Binomial:}
-\label{sec:org98af427}
+\label{sec:org22cfa61}
 
 Coin toss event repeated n times, with probability p of success. 
 
@@ -205,7 +205,7 @@ Coin toss event repeated n times, with probability p of success.
 \end{itemize}
 
 \subsection{Exponential}
-\label{sec:orgb03731e}
+\label{sec:org6fd6f0c}
 
 \begin{itemize}
 \item Exponential distribution is often concerned with the amount of time until some specific event occurs.
@@ -238,7 +238,7 @@ plt.show()
 \end{center}
 
 \section{\underline{Maximum Likelihood Estimation}}
-\label{sec:org6b7aa68}
+\label{sec:orgcf5dcd8}
 
 Location which maximizes the likelihood of the data we measured.
 
@@ -257,7 +257,7 @@ L(\(\mu\), \(\sigma\)| x1, x2,\ldots{},xn) =  L(\(\mu\), \(\sigma\)| x1) *  L(\(
 \end{itemize}
 
 \section{\underline{EM Algorithms}}
-\label{sec:org42bd756}
+\label{sec:org60e8452}
 
 Goal: \(\theta_{MLE} \in argmax_{\theta}P_{\theta}(x)\)
 Problem: \(P_{\theta}(x) = \sum_{x} P_{\theta}(x)\) is difficult to maximize
@@ -268,5 +268,18 @@ Problem: \(P_{\theta}(x) = \sum_{x} P_{\theta}(x)\) is difficult to maximize
 \item Adjust the parameters to some data so that the estimates of the parameter are better
 \item Observe more data
 \item Adjust \ldots{}
+\end{itemize}
+
+\section{\underline{Multicollinearity}}
+\label{sec:org898ce17}
+
+\begin{itemize}
+\item Measured by VIF
+\item Regress one variable with other variables: \(\frac{1}{1-R^{2}}\)
+\item VIFs are calculated by taking a predictor, and regressing it against every other predictor in the model.
+\item Useful Link: \url{https://etav.github.io/python/vif\_factor\_python.html}
+\item 
+
+\item Any variable with VIF > 5 must be removed
 \end{itemize}
 \end{document}

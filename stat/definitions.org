@@ -198,3 +198,13 @@
   - Adjust the parameters to some data so that the estimates of the parameter are better
   - Observe more data
   - Adjust ...
+
+* _Multicollinearity_
+
+  - Measured by VIF
+  - Regress one variable with other variables: $\frac{1}{1-R^{2}}$
+  - VIFs are calculated by taking a predictor, and regressing it against every other predictor in the model.
+  - Useful Link: [[https://etav.github.io/python/vif_factor_python.html]]
+  - Any variable with VIF > 5 must be removed
+
+ 
