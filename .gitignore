@@ -131,3 +131,6 @@ dmypy.json
 
 hr-qns.txt
 companies/amazon/leadership-principles-answers.org
+companies/amazon/leadership-principles-answers-copy.txt
+.DS_Store
+companies/convoy/
