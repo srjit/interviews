@@ -1,4 +1,4 @@
-% Created 2021-12-27 Mon 23:06
+% Created 2021-12-29 Wed 19:28
 % Intended LaTeX compiler: pdflatex
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
@@ -34,19 +34,19 @@
 
 
 \section{\underline{Confidence Interval}}
-\label{sec:org8fbec10}
+\label{sec:org826ddbb}
 \begin{itemize}
 \item A confidence interval gives the PROBABILITY that our true value lies within the range of values. Bigger interval = higher probability
 \end{itemize}
 
 \section{\underline{Probability}}
-\label{sec:org74be2e8}
+\label{sec:org6249d94}
 \begin{itemize}
 \item Area under an interval of a distribution curve.
 \end{itemize}
 
-\section{\underline{Likelihood} vs Probability}
-\label{sec:org94b6264}
+\section{\underline{Likelihood vs Probability}}
+\label{sec:org9d65e21}
 
 \begin{itemize}
 \item \href{https://stats.stackexchange.com/a/183885/84189}{Answer from Cross Validated}
@@ -55,57 +55,57 @@ Probability: Assuming that the data comes from a certain distribution what is th
 \end{itemize}
 
 \section{\underline{Percentage of normal distribution lies within 1 std of mean? 2, 3 std?}}
-\label{sec:orgff1049d}
+\label{sec:orgcecaebc}
 \begin{itemize}
 \item 68\%, 95\%, 99.7\%
 \end{itemize}
 
 \section{\underline{SGD Update Rule}}
-\label{sec:orgc7e8bb9}
+\label{sec:org97ebe27}
 
 $$\theta = \theta - \alpha \Delta J(\theta)$$
 $$(Current\ \theta \ vector) - learning\ rate * (Gradient\ of\ Slope)$$
 
 \section{\underline{Probability and Statistics}}
-\label{sec:org937ff47}
+\label{sec:org98532db}
 
 The problems considered by probability and statistics are inverse to each other.
 In probability theory we consider some underlying process which has some randomness or uncertainty modeled by random variables, and we figure out what happens.
 In statistics we observe something that has happened, and try to figure out what underlying process would explain those observations.
 
 \section{\underline{Law of Large Numbers}}
-\label{sec:org6637a8b}
+\label{sec:org95c2d02}
 
 If you repeat an experiment independently a large number of times and average the result, what you obtain should be close to the expected value
 
 \section{\underline{Central Limit Theorem}}
-\label{sec:orgd3aa75e}
+\label{sec:org5170b84}
 
 \section{\underline{Type I and Type II Error}}
-\label{sec:org31774ea}
+\label{sec:orgecc3d7f}
 
 Type 1: False Positive, Type 2: False Negative
 
 \section{\underline{Inverse Document Frequency}}
-\label{sec:orgc9672ea}
+\label{sec:org13872a2}
 
 $$idf = log \frac{|D|}{d : ti \in d}$$
 where | D | is the number of documents in our corpus, and | \{d : ti \(\in\) d\} | is the number of documents in which the term appears.
 
 \section{\underline{Kolmogorov - Smirnov Test}}
-\label{sec:org9316ccb}
+\label{sec:org3d6eb24}
 
 Tests whether sample fits a distribution well.
 
 \section{\underline{Normal Distribution Standard Deviations}}
-\label{sec:org79bb30d}
+\label{sec:org5391fc6}
 
 \begin{center}
 \includegraphics[width=.9\linewidth]{normal-sd.png}
 \end{center}
 
 \section{\underline{Confidence Interval}}
-\label{sec:orgca8dcda}
+\label{sec:orgdde3cce}
 
 There are 100 products and 25 of them are bad. What is the confidence interval? \\
 
@@ -120,18 +120,18 @@ CI = (16.5,33.5) \\
 95\% confidence = plus or minus 1.96 STDEV
 
 \subsection{\underline{Margin of Error}}
-\label{sec:org5f06ddd}
+\label{sec:org354ea11}
 
 Margin of Error = \(t * \frac{s}{\sqrt{n}}\)
 
 \section{\underline{Isolation Forest}}
-\label{sec:orgef19899}
+\label{sec:org83fef3d}
 
 Creates splits like a random forest, but find out how difficult is it to isolate the path to split an instance.
 Answer: \href{https://www.quora.com/What-is-the-difference-between-random-forest-and-isolation-forest}{Quora}
 
 \section{\underline{T-Test (Two Sample)}}
-\label{sec:org51a5bcd}
+\label{sec:org5ce6149}
 
 \begin{itemize}
 \item Both has to be normal distributions
@@ -142,7 +142,7 @@ Answer: \href{https://www.quora.com/What-is-the-difference-between-random-forest
 \end{itemize}
 
 \section{\underline{T-Test and Z-Test for one sample}}
-\label{sec:orgd174654}
+\label{sec:org67771f5}
 
 \begin{itemize}
 \item T-test is used when the sample size is less than 30
@@ -152,7 +152,7 @@ z-test = \(\frac{\bar{x} - \mu}{\frac{\sigma}{\sqrt{n}}}\)
 \item when sample size is > 30 and \(\sigma\) is available, use \textbf{Z-test}, else use \textbf{T-Test}
 \end{itemize}
 \section{\underline{Chi-Squred Test}}
-\label{sec:org5b7c362}
+\label{sec:org6c3d696}
 
 If there is a statistically significant difference in the observed vs expected counts.
 
@@ -184,13 +184,13 @@ Since this value is greater than 0.72, we accept Null Hypothesis
 
 
 \section{\underline{Probability Distributions}}
-\label{sec:org58448ba}
+\label{sec:orga336487}
 
 Mathematical Function that gives the probabilities of occurrence of different
 possible outcomes for an experiment. \\
 
 \subsection{Binomial:}
-\label{sec:org22cfa61}
+\label{sec:org0274547}
 
 Coin toss event repeated n times, with probability p of success. 
 
@@ -202,16 +202,18 @@ Coin toss event repeated n times, with probability p of success.
 \item Failure (1-p)
 \item Mean: np,
 \item Median: \(\lfloor np \rfloor\), \(\lceil np \rceil\)
+\item Expected Value: \(np\)
 \end{itemize}
 
 \subsection{Exponential}
-\label{sec:org6fd6f0c}
+\label{sec:org430a1b5}
 
 \begin{itemize}
 \item Exponential distribution is often concerned with the amount of time until some specific event occurs.
 \item \(f(x) = me^{-mx}\)
 \item Decay parameter, \(m = \frac{1}{\mu}\)
 \item \(\mu = \sigma\)
+\item Expected value = p
 \end{itemize}
 
 \begin{verbatim}
@@ -238,7 +240,7 @@ plt.show()
 \end{center}
 
 \section{\underline{Maximum Likelihood Estimation}}
-\label{sec:orgcf5dcd8}
+\label{sec:org4b22b3f}
 
 Location which maximizes the likelihood of the data we measured.
 
@@ -257,7 +259,7 @@ L(\(\mu\), \(\sigma\)| x1, x2,\ldots{},xn) =  L(\(\mu\), \(\sigma\)| x1) *  L(\(
 \end{itemize}
 
 \section{\underline{EM Algorithms}}
-\label{sec:org60e8452}
+\label{sec:org3ae73a2}
 
 Goal: \(\theta_{MLE} \in argmax_{\theta}P_{\theta}(x)\)
 Problem: \(P_{\theta}(x) = \sum_{x} P_{\theta}(x)\) is difficult to maximize
@@ -271,15 +273,23 @@ Problem: \(P_{\theta}(x) = \sum_{x} P_{\theta}(x)\) is difficult to maximize
 \end{itemize}
 
 \section{\underline{Multicollinearity}}
-\label{sec:org898ce17}
+\label{sec:org2697519}
 
 \begin{itemize}
 \item Measured by VIF
 \item Regress one variable with other variables: \(\frac{1}{1-R^{2}}\)
 \item VIFs are calculated by taking a predictor, and regressing it against every other predictor in the model.
 \item Useful Link: \url{https://etav.github.io/python/vif\_factor\_python.html}
-\item 
-
 \item Any variable with VIF > 5 must be removed
+\end{itemize}
+
+
+\section{\underline{Normalization and Standardization}}
+\label{sec:org2c1770b}
+
+\begin{itemize}
+\item Both are scaling techniques
+\item Normalization = Min-Max scaling
+\item Standardization = (x' - \(\mu\))/\(\sigma\)
 \end{itemize}
 \end{document}

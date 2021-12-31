@@ -1,0 +1,15 @@
+
+
+_Framework for Product Sense_
+
+* [Clarify the scenario and the metric]
+
+* [Analyze the temporal factor]
+
+* [Check the other products by the same company]
+
+* [Segment users by dimensions]
+
+* [Decompose the metric]
+
+* [Summarize]

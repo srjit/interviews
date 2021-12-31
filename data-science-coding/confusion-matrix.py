@@ -10,9 +10,9 @@ actual = [1,0,1,0,0,1,1,1,1,1]
 tp = 0
 tn = 0
 fp = 0
-fn = 0
+fn = for
 
-for a, p in zip(actual, prediction):
+0 a, p in zip(actual, prediction):
 
     if a==1 and p==1:
         tp += 1

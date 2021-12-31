@@ -1,0 +1,33 @@
+
+* Lyft
+
+  Dashboard tracking metrics shows that average ETA is up by 3 minutes. How would you diagnose?
+
+  Qns:
+  - [*Clarify*]
+    + ETA is generic. Time after making the request
+     (To reach from the driver's current point to requester | Ride start to destination)
+    + Is average ETA aggregated by hour or day
+
+  - Check extreme values
+    + Set a threshold (say 99% of values and check for extreme values) - Has data been collected
+      correctly of technical issues
+    + If there are no outliers we need to investigate further
+
+  
+  - [*Temporal Factor*]
+    + Since when have we started noticing this change?
+    + Sudden Increase - Has something changed in the algorithm?
+    + Sudden Increase - Rider matching algorithm?
+    + Progressive Increase -  
+    
+  - [*Segment by Region and Platform*]
+    + Is it isolated to a particular region?
+    + Is it isolated to a platform - Android/IOS
+    + Special Event
+    + Bad weather
+    
+  
+* Facebook
+
+  

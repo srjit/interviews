@@ -129,6 +129,7 @@ dmypy.json
 .pyre/
 
 
+**/*.tex
 hr-qns.txt
 companies/amazon/leadership-principles-answers.org
 companies/amazon/leadership-principles-answers-copy.txt

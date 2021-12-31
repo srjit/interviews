@@ -41,6 +41,27 @@
   a) all exit at different floors
   b) all exit at the same floor
   c) two get off at one floor and two get off at another
+
+* Alice and Bob take turns in rolling a fair dice.
+  Whoever gets "6" first wins the game.
+  Alice starts the game. What are the chances that Alice wins?
+
+* Consider a game with 2 players, A and B. Player A has 8 stones,
+  player B has 6. Game proceeds as follows.
+  First, A rolls a fair 6-sided die, and the number on the die
+  determines how many stones A takes over from B.
+  Next, B rolls the same die, and the exact same thing happens in
+  reverse. This concludes the round. Whoever has more stones at the
+  end of the round wins and the game is over.
+  If players end up with equal # of stones at the end of the round,
+  it is a tie and another round ensues.
+  What is the probability that B wins in 1, 2, ..., n rounds?
+
+* If a jar has X red balls and Y blue balls,
+  what is the minimum number of draws that is necessary to
+  ensure that you have one ball of each color?
+
+  
 * https://stats.stackexchange.com/questions/171451/check-whether-a-coin-is-fair
 * What is the expected value of flips to get heads on a fair coin?
 * https://quizlet.com/565183311/probstats-and-ml-interview-questions-flash-cards/
@@ -49,7 +70,3 @@
 * https://igotanoffer.com/blogs/tech/google-data-science-interview
 * https://www.statisticshowto.com/probability-and-statistics/confidence-interval/
 * https://archive.ph/V8Gky
-
-
-
-  (0.2*0.25) + (.15* )
