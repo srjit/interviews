@@ -215,3 +215,15 @@
   - Both are scaling techniques
   - Normalization = Min-Max scaling
   - Standardization = (x' - \mu)/\sigma
+
+* _Distances_
+
+  - \Sum_{i=1}^{n}(x_{i} - y_{i})
+
+* _Relation between Margin of Error and Standard Error_
+
+  - Margin of error = Critical value X Standard deviation for the population 
+
+  and
+
+  - Margin of error = Critical value X Standard error of the sample.

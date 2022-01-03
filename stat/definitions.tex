@@ -1,4 +1,4 @@
-% Created 2021-12-29 Wed 19:28
+% Created 2021-12-30 Thu 22:47
 % Intended LaTeX compiler: pdflatex
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
@@ -34,19 +34,19 @@
 
 
 \section{\underline{Confidence Interval}}
-\label{sec:org826ddbb}
+\label{sec:orge20baef}
 \begin{itemize}
 \item A confidence interval gives the PROBABILITY that our true value lies within the range of values. Bigger interval = higher probability
 \end{itemize}
 
 \section{\underline{Probability}}
-\label{sec:org6249d94}
+\label{sec:org7ddbc21}
 \begin{itemize}
 \item Area under an interval of a distribution curve.
 \end{itemize}
 
 \section{\underline{Likelihood vs Probability}}
-\label{sec:org9d65e21}
+\label{sec:orga0c8307}
 
 \begin{itemize}
 \item \href{https://stats.stackexchange.com/a/183885/84189}{Answer from Cross Validated}
@@ -55,57 +55,57 @@ Probability: Assuming that the data comes from a certain distribution what is th
 \end{itemize}
 
 \section{\underline{Percentage of normal distribution lies within 1 std of mean? 2, 3 std?}}
-\label{sec:orgcecaebc}
+\label{sec:orgc8753fe}
 \begin{itemize}
 \item 68\%, 95\%, 99.7\%
 \end{itemize}
 
 \section{\underline{SGD Update Rule}}
-\label{sec:org97ebe27}
+\label{sec:orgb2ea3f9}
 
 $$\theta = \theta - \alpha \Delta J(\theta)$$
 $$(Current\ \theta \ vector) - learning\ rate * (Gradient\ of\ Slope)$$
 
 \section{\underline{Probability and Statistics}}
-\label{sec:org98532db}
+\label{sec:org8406ca2}
 
 The problems considered by probability and statistics are inverse to each other.
 In probability theory we consider some underlying process which has some randomness or uncertainty modeled by random variables, and we figure out what happens.
 In statistics we observe something that has happened, and try to figure out what underlying process would explain those observations.
 
 \section{\underline{Law of Large Numbers}}
-\label{sec:org95c2d02}
+\label{sec:org39bb30b}
 
 If you repeat an experiment independently a large number of times and average the result, what you obtain should be close to the expected value
 
 \section{\underline{Central Limit Theorem}}
-\label{sec:org5170b84}
+\label{sec:org5b1ae8a}
 
 \section{\underline{Type I and Type II Error}}
-\label{sec:orgecc3d7f}
+\label{sec:org34907bf}
 
 Type 1: False Positive, Type 2: False Negative
 
 \section{\underline{Inverse Document Frequency}}
-\label{sec:org13872a2}
+\label{sec:orga160187}
 
 $$idf = log \frac{|D|}{d : ti \in d}$$
 where | D | is the number of documents in our corpus, and | \{d : ti \(\in\) d\} | is the number of documents in which the term appears.
 
 \section{\underline{Kolmogorov - Smirnov Test}}
-\label{sec:org3d6eb24}
+\label{sec:org59d43bf}
 
 Tests whether sample fits a distribution well.
 
 \section{\underline{Normal Distribution Standard Deviations}}
-\label{sec:org5391fc6}
+\label{sec:org6f946fa}
 
 \begin{center}
 \includegraphics[width=.9\linewidth]{normal-sd.png}
 \end{center}
 
 \section{\underline{Confidence Interval}}
-\label{sec:orgdde3cce}
+\label{sec:orgafe5799}
 
 There are 100 products and 25 of them are bad. What is the confidence interval? \\
 
@@ -120,18 +120,18 @@ CI = (16.5,33.5) \\
 95\% confidence = plus or minus 1.96 STDEV
 
 \subsection{\underline{Margin of Error}}
-\label{sec:org354ea11}
+\label{sec:org35753d9}
 
 Margin of Error = \(t * \frac{s}{\sqrt{n}}\)
 
 \section{\underline{Isolation Forest}}
-\label{sec:org83fef3d}
+\label{sec:orgbc6a2c4}
 
 Creates splits like a random forest, but find out how difficult is it to isolate the path to split an instance.
 Answer: \href{https://www.quora.com/What-is-the-difference-between-random-forest-and-isolation-forest}{Quora}
 
 \section{\underline{T-Test (Two Sample)}}
-\label{sec:org5ce6149}
+\label{sec:orgb498f25}
 
 \begin{itemize}
 \item Both has to be normal distributions
@@ -142,7 +142,7 @@ Answer: \href{https://www.quora.com/What-is-the-difference-between-random-forest
 \end{itemize}
 
 \section{\underline{T-Test and Z-Test for one sample}}
-\label{sec:org67771f5}
+\label{sec:org4de64f8}
 
 \begin{itemize}
 \item T-test is used when the sample size is less than 30
@@ -152,7 +152,7 @@ z-test = \(\frac{\bar{x} - \mu}{\frac{\sigma}{\sqrt{n}}}\)
 \item when sample size is > 30 and \(\sigma\) is available, use \textbf{Z-test}, else use \textbf{T-Test}
 \end{itemize}
 \section{\underline{Chi-Squred Test}}
-\label{sec:org6c3d696}
+\label{sec:org97b796d}
 
 If there is a statistically significant difference in the observed vs expected counts.
 
@@ -184,13 +184,13 @@ Since this value is greater than 0.72, we accept Null Hypothesis
 
 
 \section{\underline{Probability Distributions}}
-\label{sec:orga336487}
+\label{sec:org215f10e}
 
 Mathematical Function that gives the probabilities of occurrence of different
 possible outcomes for an experiment. \\
 
 \subsection{Binomial:}
-\label{sec:org0274547}
+\label{sec:org5a6ce84}
 
 Coin toss event repeated n times, with probability p of success. 
 
@@ -206,7 +206,7 @@ Coin toss event repeated n times, with probability p of success.
 \end{itemize}
 
 \subsection{Exponential}
-\label{sec:org430a1b5}
+\label{sec:orgb166fff}
 
 \begin{itemize}
 \item Exponential distribution is often concerned with the amount of time until some specific event occurs.
@@ -240,7 +240,7 @@ plt.show()
 \end{center}
 
 \section{\underline{Maximum Likelihood Estimation}}
-\label{sec:org4b22b3f}
+\label{sec:orgc1e4423}
 
 Location which maximizes the likelihood of the data we measured.
 
@@ -259,7 +259,7 @@ L(\(\mu\), \(\sigma\)| x1, x2,\ldots{},xn) =  L(\(\mu\), \(\sigma\)| x1) *  L(\(
 \end{itemize}
 
 \section{\underline{EM Algorithms}}
-\label{sec:org3ae73a2}
+\label{sec:org299290b}
 
 Goal: \(\theta_{MLE} \in argmax_{\theta}P_{\theta}(x)\)
 Problem: \(P_{\theta}(x) = \sum_{x} P_{\theta}(x)\) is difficult to maximize
@@ -273,7 +273,7 @@ Problem: \(P_{\theta}(x) = \sum_{x} P_{\theta}(x)\) is difficult to maximize
 \end{itemize}
 
 \section{\underline{Multicollinearity}}
-\label{sec:org2697519}
+\label{sec:org963d70b}
 
 \begin{itemize}
 \item Measured by VIF
@@ -285,11 +285,18 @@ Problem: \(P_{\theta}(x) = \sum_{x} P_{\theta}(x)\) is difficult to maximize
 
 
 \section{\underline{Normalization and Standardization}}
-\label{sec:org2c1770b}
+\label{sec:org8e8afef}
 
 \begin{itemize}
 \item Both are scaling techniques
 \item Normalization = Min-Max scaling
 \item Standardization = (x' - \(\mu\))/\(\sigma\)
+\end{itemize}
+
+\section{\underline{Distances}}
+\label{sec:org3299ef2}
+
+\begin{itemize}
+\item \Sum\textsubscript{i=1}\textsuperscript{n}(x\textsubscript{i} - y\textsubscript{i})
 \end{itemize}
 \end{document}
