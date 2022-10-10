@@ -1,0 +1,56 @@
+* 𝗕𝗮𝘀𝗶𝗰 𝗦𝘁𝗮𝘁𝗶𝘀𝘁𝗶𝗰𝗮𝗹 𝗖𝗼𝗻𝗰𝗲𝗽𝘁𝘀
+
+1. Univariate statistics - mean, median, mode
+2. Standard deviation and variance
+3. Covariance and correlation
+4. Population and sample
+5. Nominal, ordinal and continuous, discrete data types
+6. Outlines
+7. The Simpson’s Paradox
+8. Selection Bias
+
+* 𝗛𝘆𝗽𝗼𝘁𝗵𝗲𝘀𝗶𝘀 𝗧𝗲𝘀𝘁𝗶𝗻𝗴
+
+1. Hypothesis Statements
+2. Z-Test
+3. T-Test
+4. T-Test for sample means
+5. T-Test for proportions
+6. Paired and unpaired T-Tests
+7. Variance test
+8. ANOVA
+9. Chi-Squared test
+10. Goodness of Fit test for categorical data
+11. Nominal, ordinal and continuous, discrete data types
+12. Pairwise tests
+13. T-Test assumptions
+14. Non-parametric tests
+15. Type 1 & 2 Errors
+
+* 𝗣𝗿𝗼𝗯𝗮𝗯𝗶𝗹𝗶𝘁𝘆 & 𝗗𝗶𝘀𝘁𝗿𝗶𝗯𝘂𝘁𝗶𝗼𝗻𝘀
+
+1. The Bayes Theorem
+2. Conditional probability
+3. Normal distribution
+4. Uniform distribution
+5. Bernoulli distribution
+6. Binomial distribution
+7. Geometric distribution
+8. Poisson distribution
+9. Exponential distribution
+10. Deriving the mean and variance of distributions
+11. Central Limit Theorem
+12. The Birthday problem
+13. Card probability problems
+14. Die roll problems
+
+* 𝗥𝗲𝗴𝗿𝗲𝘀𝘀𝗶𝗼𝗻 𝗠𝗼𝗱𝗲𝗹𝗶𝗻𝗴
+
+1. OLS regression
+2. Confidence vs prediction intervals
+3. Logistic regression
+4. Regression model assumptions
+5. Model diagnostic checks
+6. R-Square vs R-Square Adjusted
+7. AIC, BIC, CP Statistics
+8. Model Interpretation
