@@ -74,6 +74,7 @@
 * [Confounding Variable]
 
   - Variable that influences both independent and dependent variable causing a spurious association; two or more variables are associated but not causally related
+  - Not included in the model
 
 * Infection rates at a hospital above a 1 infection per 100 person-days at risk are considered high.
   A hospital had 10 infections over the last 1787 person-days at risk. Give the p-value of the correct one-sided test of whether the hospital is below the standard.
