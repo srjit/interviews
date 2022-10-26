@@ -1,0 +1,43 @@
+
+
+* TODO Statistics [90%]
+  - [X] Confidence Intervals
+  - [X] p-Values
+  - [X] z-score
+  - [X] Distributions
+  - [X] Probability Problems
+  - [X] T-Test
+  - [X] Bayes theorem problems
+  - [X] Maximum Likelihood Estimation
+  - [ ] Anova
+  - [X] MLE Derivations
+    + https://youtu.be/p3T-_LMrvBc
+* Time Series Analysis [%]
+  - [ ] LSTM
+  - [ ] VAR Model
+* SQL
+* Machine Learning [%]
+  - [ ] Calculating number of parameters in neural net
+
+* Traveling Salesman
+* Eigen Values and Vectors
+* PCA / SVD
+* https://www.jmp.com/en_us/statistics-knowledge-portal/t-test/one-sample-t-test.html
+
+  [[https://terenceshin.medium.com/]]
+* [[https://archive.ph/rmpGt][Advanced SQL Concepts]]
+* [[https://archive.ph/S437d][Stat Cheatsheet]]
+* [[https://archive.ph/iu8Ic][SQL for Data Science]]
+* [[https://archive.ph/dcmoK][SQL Date Functions]]
+* [[https://youtu.be/EokL7E6o1AE][SVD]]
+* [[https://archive.ph/BsxfX][Fraud Model]]
+
+
+* Stat Questions
+  [ ] https://www.edureka.co/blog/interview-questions/data-science-interview-questions/  
+  [ ] https://www.stratascratch.com/blog/30-probability-and-statistics-interview-questions-for-data-scientists/
+  [ ] https://www.janbasktraining.com/blog/statistics-interview-questions/
+  [ ] https://www.kdnuggets.com/2021/02/10-statistical-concepts-data-science-interviews.html
+  [ ] https://www.analytixlabs.co.in/blog/data-analyst-interview-questions/
+  [ ] https://www.projectpro.io/article/100-data-science-interview-questions-and-answers-for-2021/184
+

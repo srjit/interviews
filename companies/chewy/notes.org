@@ -1,0 +1,21 @@
+
+0) 2-hour assessment covered both python and SQL:
+1) dataframe related operations
+2) scenario-based SQL questions with table schemas
+experience in predictive modelling?
+what is bais and variance tradeoff
+explain random forest
+Explain regression
+Meaning of R square in regression
+How do you which variables to disregard in regression?
+Importance of adjusted R square
+Difference between having clause and where clause in SQL
+Explain different types of join
+One question on decision tree
+Write a SQL query to select the 2nd highest salary (data tables on white board)
+Write a SQL query to select people with the highest orders sorted with highest first
+(customer id and products purchased in different tables)
+
+
+
+   
