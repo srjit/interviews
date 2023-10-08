@@ -1,0 +1,28 @@
+
+_Interview Resources_
+
+* Links
+
+** https://bloomberg.github.io/foml/#lectures
+** /Users/sreejithsreekumar/code/Data-Science--Cheat-Sheet
+
+
+** https://www.datainterview.com/questions/central-limit-theorem
+
+
+* Youtube Interview Screening
+
+** https://www.youtube.com/watch?v=FHHtTnxOmNg
+** https://www.youtube.com/watch?v=D7UskNM6Lsc
+
+
+
+* Books
+
+** https://hastie.su.domains/ISLP/ISLP_website.pdf
+
+* Blogs
+** https://archive.ph/xb8R6
+
+* Coding
+** https://datalemur.com/questions?category=Python

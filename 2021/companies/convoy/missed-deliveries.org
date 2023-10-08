@@ -1,0 +1,25 @@
+
+
+* Causes (Model to Predict Delayed Shipments)
+
+  - Trucks can be delayed at a prior facility
+  - Break down during transit
+  - Run into unexpected traffic
+
+
+  - Notify a shipper as soon as possible of an anticipated failure to arrive on time
+  - Model: Predict risk of a service failure
+
+  - By training a binary classifier with data labeled as “late” or “not late”,
+     we can predict the probability of the driver being late. If this probability exceeds a threshold
+  - Classifier or Regressor:
+
+
+* What are the external factors that affect delivery time
+
+  - Fuel Price
+  - Traffic
+  - Weather
+  - Route
+  - Condition of the vehicle
+  - 

@@ -1,0 +1,402 @@
+
+
+### 1.ARE RIGHT, A LOT
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. Tell me about a time when you didn't have enough data to make the right decision.
+(What did you do? What path did you take? Did the decision turn out to be the correct one?)
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Needed access to a bunch of new tables and perform some operations. What we had was a sample of the data
+representation as a csv file. Me and my partner in the team Loaded sample data into local mysql and built the flow of operations.
+When we got access to the data after a week and half, the flow which was already built helped to fasten the
+data collection and processing.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+2. Tell me about a strategic decision you had to make without clear data or benchmarks.
+How did you make your final decision? What alternatives did you consider? What were the tradeoffs of each? How did you mitigate risk?
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+3.Tell me about a time when you made a difficult decision with input from many different sources
+(customers, stakeholders, partner teams, etc.).
+What was the situation and how did you arrive at your decision? Did the decision turn out to be the correct one? Why or why not?
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+4. Tell me about a time when you made a difficult decision with input from many different sources (customers, stakeholders, partner teams, etc.).
+   What was the situation and how did you arrive at your decision? Did the decision turn out to be the correct one? Why or why not?
+
+5. We don't always make the right decision all the time. Tell me about a time when you made a bad decision.
+   What was the impact of that decision? What did you learn? How have you applied what you learned?
+
+6. Tell me about a time when you discovered that your idea was not the best course of action. What was your idea?
+   Why wasn't your idea the best course of action? How did you find out it was not the correct path? What was the best course of action?
+   Who provided it? What did you learn from the experience?
+-------------------------------------------------------------------------------------------------------------------------------------------   
+
+Libor - Worked with different teams which provide business logic to build variables.  Was asked to build a couple of variables - didnt know the logic
+clearly. People who had to provide logic was on vacation.
+Built the variable with the best available logic. When asked to evaluate, it was wrong.
+
+Time was lost.
+
+Learned:  To evealuate new logic on a sample and then ask someone to evaluate/verify
+
+
+
+
+### 2. BIAS FOR ACTION
+
+
+1. Give me an example of a calculated risk that you have taken where speed was critical.
+
+
+
+###  3. CUSTOMER OBSESSION
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+1. Describe a difficult interaction you had with a customer.
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Join rate is less. Built an algorithm to improve the join rates.
+(Built a fuzzy logic to improve the rate of join and a confidence score.)
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+2. Tell me about a time when you went above and beyond for a customer.
+-------------------------------------------------------------------------------------------------------------------------------------------
+   This thanksgiving break - we had project deliverables - customer was waiting the following week.
+   Realized that they would not be happy if it got pushed.
+   Worked during the holidays.
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+3. Give me an example of when you were able to anticipate a customer need with a solution/product they didn't know they needed/wanted yet
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+   PraaS vagrant and cloud deployement initiative - single click
+
+-------------------------------------------------------------------------------------------------------------------------------------------   
+4 Give me an example of a time when you asked for customer feedback. How did you use that feedback to drive innovation or improvement?
+How did the customer respond?
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+   Praas story of Praas vagrant and cloud deployment - feedback - bugs on session handling
+   Learned and fixed it - Good learning experience
+
+-------------------------------------------------------------------------------------------------------------------------------------------   
+5. Tell me about a time when you evaluated the customer experience of your product or service.
+-------------------------------------------------------------------------------------------------------------------------------------------   
+
+    Used configuration files to drive start and build the modeling workbench of PraaS. Realized that the customer has to understand a lot of how
+    the software works. Tried to simplify all of it with a UI
+
+-------------------------------------------------------------------------------------------------------------------------------------------    
+6. Sometimes customers make unreasonable requests. Tell me about a time when you've had to push back or say no to a customer request.
+-------------------------------------------------------------------------------------------------------------------------------------------   
+    Wanted an entity resolution for joining in a week to improve a join accuracy. We have had a join rate of about 4500/5000 correctly identified.
+    I didn't have a lot of ideas and there wasn't any help available. So it was added in the backlog.
+
+-------------------------------------------------------------------------------------------------------------------------------------------    
+ 7. Tell me about a time when you had to balance the needs of the customer with the needs of the business.
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+### 4. DELIVER RESULTS
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+1. Give me an example of a time when you were able to deliver an important project under a tight deadline.
+   What sacrifices did you have to make to meet the deadline? How did they impact the final deliverable? What was the final outcome?
+-------------------------------------------------------------------------------------------------------------------------------------------   
+Working overnight against palantir to win a client.
+Competition: Search and discovery of documents - New feature: added map of locations.
+Couldnt win, but we added a lot of new features overnight - lots of new visualizations.
+Lots of learning. 
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+2. Tell me about a time when you had significant, unanticipated obstacles to overcome in achieving a key goal.
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Laptop had an update - wasnt able to login. Set up meeting with new joinee - worked on his machine and did pair programming
+Kept the project moving
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+3. Tell me about a time when you not only met a goal but considerably exceeded expectations.
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Time series project - patent
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+4. Tell me about a time when you or your team were more than half way to meeting a goal when you realized it may not be the right goal or may have unintended consequences. 
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Variable expression evaluation parser - Xurmo sandbox. Sometimes the tree evaluates to wrong results while taking a particular form of expression.
+Came up during beta testing
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+5. Give me an example of a mission or goal you didn’t think was achievable. 
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+6. Tell me about a time when you did not effectively manage your projects and something did not get completed on time.
+   What was the impact? What approaches do you use to make sure you are focusing on the right deliverables when you have several competing priorities?
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+### 5. DIVE DEEP
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+1.Tell me about a time when you were trying to understand a complex problem on your team and you had to dig into the details to figure it out?
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Solving the cash forecasting problem - time series is not something i had worked on professionally. Study with colleagues - took classes.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+2. Tell me about a situation that required you to dig deep to get to the root cause.
+   How did you know you were focusing on the right things? What was the outcome? Would you have done anything differently?
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+New praas release. New UI <red> saying workflow had failed - Different components to inspect.
+
+We didn't have integration test cases. Ran all the test cases for backend and verified that it was fine
+
+Took the input the client gave and debugged the UI to see they are being passed on to construct the xml properly.
+The workflow is building an xml file for oozie
+and passing the parameters correctly - Constructing the xml is a really challanging task.
+
+Found a bug
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+3. Tell me about a problem you had to solve that required in-depth thought and analysis.
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+NLP Workbench - Was a new product. Had to think of not only re-creating it in python (pyspark) but also write code so that it can
+run in a distributed way.
+There were several roadblocks - create a spark cluster, and write the code, and deploy the solution
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+4. Walk me through a big problem or issue in your organization that you helped to solve.
+-------------------------------------------------------------------------------------------------------------------------------------------
+SBA PPP - Identified loans were not getting processed. Applications were getting reject, but we didnt know why they were getting rejected fast enough.
+Created a script to processes logs and identify this
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+5. Tell me about a specific metric you have used to identify a need for a change in your department.
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+6. Have you ever created a metric that helped identify a need for a change in your department? 
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+### 6. EARN TRUST
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+1. Tell me about a time when you had to communicate a change in direction that you anticipated people would have concerns with. 
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+2. Tell me about a time when you had to communicate a change in direction that you anticipated people would have concerns with. 
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Startup - only 10 engineers - boss told that my performance wasn't upto the mark and they couldnt convert me full time. Remained on probationary period.
+Started spending more time to understand the product and studying coding.
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+3. Describe a time when you needed to influence a peer who had a differing opinion about a shared goal.
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Adding ML components (colleagues) | Analytics and Reports to earn new customer trust
+My argument was that fancy products are hard to sell in traditional environment. We discussed the timelines and decided on maximum output
+for the moment.
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+4. Give me an example of a time when you were not able to meet a commitment. 
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+My
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+5. Tell me about a time when your team’s goals were out of alignment with another team you relied on in order to meet your goal.
+-------------------------------------------------------------------------------------------------------------------------------------------
+LIBOR project - was dependent on data team. Data wasnt ready for 3 weeks.
+Kept the scripts ready for current release.
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+5. Tell me about a time when you uncovered a significant problem in your team. 
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+6. Describe a time when you improved morale and productivity on your team
+-------------------------------------------------------------------------------------------------------------------------------------------
+Took lessons on writing test cases and using git flow at 24/7
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+7. Tell me about a time when a team member was struggling to keep up or fit in and you stepped in to help out.
+8. Tell me about a time when a team member was not performing well and impacted your work. 
+-------------------------------------------------------------------------------------------------------------------------------------------
+LIBOR - consulating company - bad code. Was making it really difficult for new people when they join in.
+Previous project - wrote documentation in Sphinx and how easy it was. With the help of manager took steps to standardize code.
+
+
+
+### 7. FRUGALITY
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+1. Tell me about time when you were working on an initiative or goal and saw an opportunity to do something much bigger or better than the initial focus.
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Built a UI engine - Improved it with Vagrant and Cloud
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+2. Give me an example of how you have changed the direction or view of a specific function/department and helped them embrace a new way of thinking.
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Less mature group - created standards for coding
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+3. Give me an example of a time you proposed a novel approach to a problem
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Evaluation framework for testing multiple time series as opposed to testing individual time series.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+4. Tell me about a time when you drove adoption for your vision/ideas.
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+5. Give me an example of an idea or vision you had which was adopted by global stakeholders.
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+6. Tell me about a time when you thought differently to improve a process that was working. 
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+ - Cloud based service instead of a product that was working okay (PraaS)
+ - 
+
+
+
+ ### 8. HAVE BACKBONE; DISAGREE AND COMMIT
+
+ -------------------------------------------------------------------------------------------------------------------------------------------
+1.  Tell me about a time when you strongly disagreed with your manager or peer on something you considered very important to the business. 
+-------------------------------------------------------------------------------------------------------------------------------------------
+Time series, not enough data - manager was
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+ 2. Describe a time when you took an unpopular stance in a meeting with peers and your leader.
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+after 4 years in first company i was reporting to main engineering manager. 
+recent hires - didn't perform well. The plan was to let people go - I told them to give another chance (another 3 months)
+
+They were able to pick up pace and bring themselves up.
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+3. Often, we must make decisions as a group. Give me an example of a time you committed to a group decision even though you disagreed.
+4. Describe a time when you felt really strongly about something on a project but the team decided to go in a different direction.
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+5. Give me an example of when you submitted a great idea to your manager and they did not support it. 
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Building trend models which could show if a customer is going down. I thought the work would be innovative and interesting.
+Manager wanted to wait until our team gets more maturity.
+I  implemented the idea in my free time and demoed it to him - He agreed that it was a good concept, however since we don't have
+sufficient resources to put it in production, he asked me to wait
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+6. Tell me about a time when you pushed back against a decision that negatively impacted your team.
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+I worked as vendor at HDFC Analytics in india. it was a remote location deployment, and the client started taking advantage of me and my partner.
+In the beginning stages it was fine since the tasks were small.
+However when the amount of extra work increased and my partner was okay to do it, I reported it back to the team
+and they put another personnel to regulate and oversee the work.
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+7. Describe a time when you had to support a business initiative that you didn't agree with.
+-------------------------------------------------------------------------------------------------------------------------------------------   
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------   
+8 Tell me about a time when the business gained something because you persisted for a length of time.
+-------------------------------------------------------------------------------------------------------------------------------------------   
+
+
+### HIRE AND DEVELOP THE BEST
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+1. Tell me about a time when you helped one of your team members develop their career
+2. Tell me about a time when you invested in an employee's development.
+
+-------------------------------------------------------------------------------------------------------------------------------------------   
+recent hires - didn't perform well. The plan was to let people go - I told them to give another chance (another 3 months)
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------   
+3. Give me an example of a time you provided feedback to develop the strengths of someone on your team. 
+-------------------------------------------------------------------------------------------------------------------------------------------   
+exchanged skillsets with data science team
+
+
+### INSIST ON THE HIGHEST STANDARDS
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------   
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------   
+
+
+### INVENT AND SIMPLIFY
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------   
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------   
+
+### Learn and Be Curious
+
+### OWNERSHIP
+
+### THINK BIG
