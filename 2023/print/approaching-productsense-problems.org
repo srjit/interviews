@@ -1,0 +1,24 @@
+
+1. A project starts. A naive practitioner will explore the data then start training a model. A veteran data scientist, on the other hand, will start with the following questions
+
+- What’s the ROI in the current project?
+- What’s the business KPI value that the DS effort needs to improve?
+- What is the volume of data available? Is the size, and quality (e.g. null rate) decent enough to proceed?
+
+Only after the initial exploration then you can proceed to the deep dive.
+
+2. Every step in the modeling process needs to be numerical-driven.
+
+- Based on the various null rates - 20-80%, how are you deciding which column to keep or preprocess?
+- How are you choosing your features for the model? Is 10, 20, or 30 sufficient? Why?
+- How’s the model performance in terms of business value in $? What about the cost?
+
+3. Make decisions based on a set of numbers to get the whole picture, not just on a single number.
+
+It’s not just model accuracy you have to improve. You have to account for guardrails.
+
+- A model may seem great because the accuracy is high, but when you look at the accuracy among clusters of data, you may see a great deal of variability - in some cases, the current business method may be better.
+
+- Every metrics have trade-offs. An improvement in accuracy may come at a cost of other key metrics. Consider fraud modeling - the hit rate of fraud users may be greatly improved, but it may come at a cost of falsely flagging good users.
+
+Here’s the bottom line - don’t just learn about the next tool and algorithm to improve your craft in data science. If you want to deliver more impact on business, you have to learn to “read” the numbers.
