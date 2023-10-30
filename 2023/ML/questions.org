@@ -1,0 +1,7 @@
+#+title: Question Set
+#+LATEX_HEADER: \usepackage[margin=0.5in]{geometry}
+
+** Precision / Recall
+
+ - Precision = $\frac{TP}{TP+FP}$ \\
+ -  Recall  = $\frac{TP}{TP+FN}$ \\
