@@ -23,7 +23,7 @@ class Solution:
         temp.next = l1 or l2  #5
         return dummy.next
     
-    # With recursion
+    # With recursion 
     def mergeTwoLists2(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
 
         if not l1 or not l2:
